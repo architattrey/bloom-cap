@@ -1,0 +1,6 @@
+{
+    // Specifies the color theme used in the workbench.
+    "workbench.colorTheme": "Default Dark+",
+    // Specifies the icon theme used in the workbench.
+    "workbench.iconTheme": null
+}

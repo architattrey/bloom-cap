@@ -1,0 +1,53 @@
+{
+  "name": "API-BLOOM",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "gitadd": "git add --all",
+    "gitadddoc": "git add public/docs",
+    "gendoc": "apidoc -i api -o public/docs/",
+    "doc": "npm run gendoc && npm run gitadddoc"
+  },
+  "apidoc": {
+    "title": "API document for BLOOM",
+    "version": "0.2.0",
+    "url": "https://dev-bloom-api.herokuapp.com"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.142.0",
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.15.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.3.5",
+    "cors": "^2.8.1",
+    "csv-parse": "^2.0.0",
+    "debug": "~2.2.0",
+    "ejs": "^2.3.2",
+    "express": "~4.13.4",
+    "express-joi-validator": "^2.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "joi": "^6.10.1",
+    "mailgun-js": "^0.13.1",
+    "moment": "^2.16.0",
+    "moment-range": "^2.2.0",
+    "moment-timezone": "^0.5.4",
+    "mongo-xlsx": "^1.0.12",
+    "mongodb": "3.0.8",
+    "mongoose": "5.1.2",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-timestamp": "latest",
+    "morgan": "^1.6.1",
+    "node-ses": "^2.0.5",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1",
+    "qrcode": "^1.2.0",
+    "request": "^2.79.0",
+    "sendotp": "^1.2.8",
+    "serve-favicon": "~2.3.0",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0"
+  }
+}

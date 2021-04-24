@@ -1,0 +1,1 @@
+define({  "title": "API document for BLOOM",  "version": "0.2.0",  "url": "https://dev-bloom-api.herokuapp.com",  "name": "API-BLOOM",  "description": "",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2018-04-25T04:54:45.487Z",    "url": "http://apidocjs.com",    "version": "0.17.5"  }});
