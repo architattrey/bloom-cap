@@ -21,6 +21,6 @@ exports.PAGINATION_DEFAULT_MAX_PAGE_SIZE = 10000;
 exports.PAGINATION_DEFAULT_PAGE_NUMBER = 1;
 
 //  AWS
-exports.AWS_ACCESS_KEY = "AKIAI23GVVEZLATZWWRQ";
-exports.AWS_SECRET_KEY = "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";
-exports.AWS_BUCKET = "bloom-foundation-dev";
+exports.AWS_ACCESS_KEY = "";
+exports.AWS_SECRET_KEY = "";
+exports.AWS_BUCKET = "";
